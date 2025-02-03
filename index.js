@@ -6,7 +6,7 @@ const newGameButton = document.querySelector("[data-testid='newGameButton']");
 
 let score = 0;
 let targetColor = "";
-const colors = ["red", "blue", "green", "yellow", "purple", "orange", "black", "pink", "red"];
+const colors = ["red", "blue", "green", "yellow", "purple", "orange", "black", "pink"];
 
 function startRound() {
     gameStatus.textContent = "";
